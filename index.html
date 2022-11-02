@@ -26,11 +26,11 @@
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
+            <ul class="navbar-nav mb-2 mb-lg-0 me-auto">
+              <li class="nav-item ms-4">
                 <a class="nav-link active" aria-current="page" href="#">Inicio</a>
               </li>
-              <li class="nav-item dropdown">
+              <li class="nav-item dropdown ms-4">
                 <a class="nav-link dropdown-toggle active" href="#" data-bs-toggle="dropdown" aria-expanded="false">Servicios</a>
                 <ul class="dropdown-menu">
                   <li><a class="dropdown-item" href="#">Tu PC más rápido 3x</a></li>
@@ -38,11 +38,16 @@
                   <li><a class="dropdown-item" href="#">Soporte técnico</a></li>
                 </ul>
               </li>
+              <li class="nav-item dropdown ms-4">
+                <a class="nav-link dropdown-toggle active" href="#" data-bs-toggle="dropdown" aria-expanded="false">Políticas</a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Aviso Legal</a></li>
+                  <li><a class="dropdown-item" href="#">Tratamiento de datos</a></li>
+                  <li><a class="dropdown-item" href="#">Política de privacidad</a></li>
+                </ul>
+              </li>
             </ul>
-            <form class="d-flex" role="search">
-              <input class="form-control me-2" type="mail" placeholder="Correo" aria-label="Correo">
-              <button class="btn btn-danger" type="submit">Registrar</button>
-            </form>
+            <a href="#" class="btn btn-danger">Obtener descuento del 20%</a>
           </div>
         </div>
       </nav>
@@ -275,12 +280,12 @@
 <div class="container col-xxl-8 px-4 py-5">
   <h2 class="fs-1 fw-bold text-center pb-4">Comunícate con nosotros</h2>
   <div class="row flex-sm-row-reverse align-items-start g-5 pt-3">        
-    <div class="col-md-6 text-center text-lg-start">
+    <div class="col-md-7 text-center text-lg-start">
       <p class="text-start">Escríbenos, estamos para ayudarte a resolver tus incidentes con tu computador.</p>
       <form class="row g-3 needs-validation" novalidate>
         <div class="col-md-6">
           <label for="validationName" class="form-label">Nombre</label>
-          <input type="text" class="form-control" id="validationCustom01" placeholder="Juan Díaz" required>
+          <input type="text" class="form-control" id="validationCustom01" placeholder="Tu nombre aquí" required>
           <div class="valid-feedback">
             Mucho gusto!
           </div>
@@ -288,23 +293,23 @@
         <div class="col-md-6">
           <label for="validationPhone" class="form-label">Whatsapp</label>
           <div class="input-group has-validation">
-            <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" placeholder="3105551111" required>
+            <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" placeholder="Escribe tu numero de celular" required>
             <div class="invalid-feedback">
-              Ingrese un número de celular válido
+              Ingresa un número de celular válido
             </div>
           </div>
         </div>
         <div class="col-md-6">
           <label for="validationCustom03" class="form-label">Ciudad</label>
-          <input type="text" class="form-control" id="validationCustom03" placeholder="Bogotá" required>
+          <input type="text" class="form-control" id="validationCustom03" placeholder="¿Donde vives?" required>
           <div class="invalid-feedback">
-            Please provide a valid city.
+            Ingresa la ciudad en la que vives
           </div>
         </div>
         <div class="col-md-6">
           <label for="validationPC" class="form-label">Tipo de computador</label>
           <select class="form-select" aria-label="Default select example">
-            <option selected>Selecciona...</option>
+            <option selected>Selecciona una opción...</option>
             <option value="1">Escritorio</option>
             <option value="2">Portatil</option>
             <option value="3">Todo en uno</option>
@@ -333,7 +338,7 @@
         </div>
       </form>
     </div>
-    <div class="col-md-6 sticky-sm-top text-center pt-md-4">
+    <div class="col-md-5 sticky-sm-top text-center pt-md-4">
       <img src="media/Chica Tecty.png" class="img-fluid" style="max-height: 350px;" alt="Brindando soporte" loading="lazy">
     </div>
     
